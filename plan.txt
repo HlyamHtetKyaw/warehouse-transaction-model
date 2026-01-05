@@ -1,0 +1,17 @@
+One root acc
+One reseller acc
+Two admin acc
+One enduser acc
+
+Current system role stream
+root->reseller->admin->enduser
+
+To check credit allocation flow
+root->reseller | allow
+reseller->root | don’t allow
+reseller->admin
+admin->admin
+<Need one admin acc> (checked)
+admin->enduser
+
+
