@@ -7,7 +7,7 @@ Current system role stream
 root->reseller->admin->enduser
 
 To check credit allocation flow
-root->reseller | allow
+root->reseller | allow CHECKED
 reseller->root | don’t allow
 reseller->admin
 admin->admin
