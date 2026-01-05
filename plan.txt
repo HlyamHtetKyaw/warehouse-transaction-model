@@ -18,4 +18,12 @@ Root id = 1
 Reseller id = 2
 Admin testing id = 130
 Admin id = 104
+Enduser id = 1
+
+Root account payload
+{
+  "username": "aplusbinary@outlook.com",
+  "password": "qweqwe123"
+}
+
 
