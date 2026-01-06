@@ -26,4 +26,9 @@ Root account payload
   "password": "qweqwe123"
 }
 
+Reseller account payload
+{
+  "username": "reseller@aplusbinary.com",
+  "password": "qweqwe123"
+}
 
