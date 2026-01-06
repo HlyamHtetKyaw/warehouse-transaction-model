@@ -1,4 +1,4 @@
-One root acc
+                       One root acc
 One reseller acc
 Two admin acc
 One enduser acc
@@ -8,11 +8,12 @@ root->reseller->admin->enduser
 
 To check credit allocation flow
 root->reseller | allow CHECKED
-reseller->root | don’t allow
-reseller->admin
-admin->admin
+reseller->root | don’t allow CHECKED
+reseller->admin CHECKED
+admin->admin CHECKED
+admin->upstream CHECKED
 <Need one admin acc> (checked)
-admin->enduser
+admin->enduser CHECKED
 
 Root id = 1
 Reseller id = 2
@@ -31,4 +32,6 @@ Reseller account payload
   "username": "reseller@aplusbinary.com",
   "password": "qweqwe123"
 }
+
+
 
