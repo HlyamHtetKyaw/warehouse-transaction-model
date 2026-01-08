@@ -33,5 +33,11 @@ Reseller account payload
   "password": "qweqwe123"
 }
 
+Root creates package 
+Created package will be able to buy by resellers
+Admin check purchase packages
+Admin approve PENDING purchases and credit will allocate to reseller
+Admin refund COMPLETED purchases and credit will reduce for specific reseller
+
 
 
