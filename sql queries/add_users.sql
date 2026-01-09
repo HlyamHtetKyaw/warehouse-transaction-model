@@ -2,7 +2,6 @@ SET @roleId      = 1;  -- existing role_id
 SET @superiorId  = 1;  -- existing superior_id (e.g., root)
 SET @pwd         = '$2a$10$J4feTOnMWnwQ5sYW/QTaxOCBAnfYHVFYNjKylYcpokdSW643p9BgO'; -- existing hash
 SET @i := 0;
-
 INSERT INTO am_account (
   contact_mobile,
   contact_mobile_country_code,
