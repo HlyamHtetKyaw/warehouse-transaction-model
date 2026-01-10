@@ -47,6 +47,26 @@ Admin refund COMPLETED purchases and credit will reduce for specific reseller
 
 Credit buy flow to admin
 Approved by reseller
-Reseller must have package
-After approved,package transferred to admin
+Reseller must have enough credits to approve the incoming purchases
+
+To check
+
+Admin create 1000 credit package
+	View all package route
+	
+Reseller bought that package
+	See status change
+
+Root approve the purchases
+	See credit changes
+
+Admin bought the package of 2000 credit package
+	See status change
+
+Reseller approve the purchases (must fail)
+
+Reseller bought another 1000 package, root approve
+
+Reseller again approve the purchases (must success)
+
 
