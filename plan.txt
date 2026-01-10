@@ -35,7 +35,7 @@ Reseller account payload
 
 Admin account payload
 {
-  "username": "testing@gmail.com",
+  "username": "admin@gmail.com",
   "password": "0000000000"
 }
 
@@ -51,22 +51,28 @@ Reseller must have enough credits to approve the incoming purchases
 
 To check
 
-Admin create 1000 credit package
-	View all package route
-	
-Reseller bought that package
-	See status change
+Root create 1000, and 2000 credit package 	CHECKED
+	View all package route by root 		CHECKED			
+	View all package by reseller			CHECKED	
+	View all package by admin			CHECKED
 
-Root approve the purchases
-	See credit changes
+Reseller bought 1000 credit package		CHECKED
+	See status change PENDING			CHECKED
+	See my purchase route PENDING		CHECKED	
 
-Admin bought the package of 2000 credit package
-	See status change
+Root check all purchases route PENDING		CHECKED
+Root approve package purchase COMPLETE		CHECKED
+	See credit changes				CHECKED
 
-Reseller approve the purchases (must fail)
+Admin bought 2000 valued package			CHECKED
+	See status change					CHECKED
 
-Reseller bought another 1000 package, root approve
+Reseller check its child purchased package	CHECKED
+Reseller approve the purchases (must fail)	CHECKED
 
-Reseller again approve the purchases (must success)
+Reseller bought another 1000 package,		CHECKED
+root approve
+
+Reseller again approve the purchases (must success) CHECKED
 
 
