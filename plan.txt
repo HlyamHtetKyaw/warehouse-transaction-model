@@ -39,5 +39,8 @@ Admin check purchase packages
 Admin approve PENDING purchases and credit will allocate to reseller
 Admin refund COMPLETED purchases and credit will reduce for specific reseller
 
-Credit will be filled to admin from reseller.
+Credit buy flow to admin
+Approved by reseller
+Reseller must have package
+After approved,package transferred to admin
 
