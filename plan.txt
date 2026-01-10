@@ -39,6 +39,12 @@ Admin account payload
   "password": "0000000000"
 }
 
+End User account payload
+{
+  "username": "enduser@gmail.com",
+  "password": "0000000000"
+}
+
 Root creates package 
 Created package will be able to buy by resellers
 Admin check purchase packages
@@ -74,5 +80,15 @@ Reseller bought another 1000 package,		CHECKED
 root approve
 
 Reseller again approve the purchases (must success) CHECKED
+
+Admin allocation plan
+
+Admin allocate credit to admin			CHECKED
+	See parent amount					CHECKED
+	See child amount					CHECKED
+Admin allocate credit to end-user			CHECKED
+	See parent amount					CHECKED
+	See child amount					CHECKED
+
 
 
