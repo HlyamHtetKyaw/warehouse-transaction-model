@@ -33,6 +33,12 @@ Reseller account payload
   "password": "qweqwe123"
 }
 
+Admin account payload
+{
+  "username": "testing@gmail.com",
+  "password": "0000000000"
+}
+
 Root creates package 
 Created package will be able to buy by resellers
 Admin check purchase packages
