@@ -99,9 +99,13 @@ On complete failure = call api with reservation id -> credit revoke
 TODO:
 License assign api admin->admin (not allow)		DONE
 Create account api admin->admin (not allow)		DONE
-
+Add enduser deleted route by parent admin		DONE
 TOFIX:
-Associated count 0 in role list (admin side) DONE
+Associated count 0 in role list (admin side) 		DONE
+
+TOCHECK:
+Reseller delete inactive admin that have related child account will it delete all?
+
 
 
 
