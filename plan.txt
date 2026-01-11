@@ -97,11 +97,11 @@ On complete success = call api with reservation id->credit reduce
 On complete failure = call api with reservation id -> credit revoke
 
 TODO:
-License assign api admin->admin (not allow)
-Create api admin->admin (not allow)
+License assign api admin->admin (not allow)		DONE
+Create account api admin->admin (not allow)		DONE
 
 TOFIX:
-Associated count 0 in role list (admin side)
+Associated count 0 in role list (admin side) DONE
 
 
 
