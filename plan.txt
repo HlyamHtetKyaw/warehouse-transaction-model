@@ -91,4 +91,9 @@ Admin allocate credit to end-user			CHECKED
 	See child amount					CHECKED
 
 
+To reserve (root, enduser)
+On start = call api with amount->reserve in table->return with reserve_id
+On complete success = call api with reservation id->credit reduce
+On complete failure = call api with reservation id -> credit reserve
+
 
