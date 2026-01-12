@@ -110,8 +110,8 @@ Reseller delete inactive admin that has a related child account will it delete a
 
 Role id 7
 
-To add category parameter in license update route
-Link database in warehouse system backend
-Add swagger for warehouse system
+To add category parameter in license update route	DONE
+Link database in warehouse system backend		DONE
+Add swagger for warehouse system				DONE
 
 
