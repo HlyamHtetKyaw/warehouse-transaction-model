@@ -91,7 +91,7 @@ Admin allocate credit to end-user			CHECKED
 	See child amount					CHECKED
 
 
-To reserve (root, enduser)
+To reserve (admin, enduser)
 On start = call api with amount->reserve in table->return with reserve_id
 On complete success = call api with reservation id->credit reduce
 On complete failure = call api with reservation id -> credit revoke
@@ -104,9 +104,14 @@ TOFIX:
 Associated count 0 in role list (admin side) 		DONE
 
 TOCHECK:
-Reseller delete inactive admin that have related child account will it delete all?								YES
+Reseller delete inactive admin that has a related child account will it delete all?								YES
 
 
 
 Role id 7
+
+To add category parameter in license update route
+Link database in warehouse system backend
+Add swagger for warehouse system
+
 
