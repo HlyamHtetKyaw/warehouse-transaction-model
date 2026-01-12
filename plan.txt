@@ -104,9 +104,9 @@ TOFIX:
 Associated count 0 in role list (admin side) 		DONE
 
 TOCHECK:
-Reseller delete inactive admin that have related child account will it delete all?
+Reseller delete inactive admin that have related child account will it delete all?								YES
 
 
 
-
+Role id 7
 
