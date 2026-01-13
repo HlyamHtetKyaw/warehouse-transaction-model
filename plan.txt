@@ -116,7 +116,6 @@ Add swagger for warehouse system				DONE
 
 WAREHOUSE
 
-Warehouse pagination already exist
-
-
+Warehouse pagination						EXIST
+Production pagination 						EXIST
 
