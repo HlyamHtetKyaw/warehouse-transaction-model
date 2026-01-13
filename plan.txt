@@ -119,4 +119,5 @@ WAREHOUSE
 Warehouse pagination						EXIST
 Production pagination 						EXIST
 Storage pagination						EXIST
+Supplier pagination						EXIST
 
