@@ -121,4 +121,5 @@ Production pagination 						EXIST
 Storage pagination						EXIST
 Supplier pagination						EXIST
 Shipment pagination						EXIST
+Stock pagination							EXIST
 
