@@ -114,10 +114,11 @@ To add category parameter in license update route	DONE
 Link database in warehouse system backend		DONE
 Add swagger for warehouse system				DONE
 
-WAREHOUSE
+WAREHOUSE PAGINATION CHECK
 
 Warehouse pagination						EXIST
 Production pagination 						EXIST
 Storage pagination						EXIST
 Supplier pagination						EXIST
+Shipment pagination						EXIST
 
