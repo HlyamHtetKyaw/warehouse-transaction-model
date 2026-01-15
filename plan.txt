@@ -130,3 +130,6 @@ Product file import,export					CHECK
 Storage file import,export					CHECK
 Supplier file import,export					CHECK
 
+Shipment file import didn’t show specific column duplicate error
+, export is ok							CHECK
+
