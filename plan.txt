@@ -128,4 +128,5 @@ Change File Path from Properties				DONE
 Appearing extra header for file import			FIXED
 Product file import,export					CHECK
 Storage file import,export					CHECK
+Supplier file import,export					CHECK
 
