@@ -123,3 +123,7 @@ Supplier pagination						EXIST
 Shipment pagination						EXIST
 Stock pagination							EXIST
 
+Warehouse System Checking
+Import xlsx file works but fetching data is wrong
+
+
