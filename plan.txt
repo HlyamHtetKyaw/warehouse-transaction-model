@@ -137,3 +137,10 @@ Importing file template
  - add new route for downloading new template			DONE
  - check whether each column has correct header or no	DONE
 
+Doc System
+@ConditionalOnProperty
+Clean up hour properties didn’t use for now
+
+Watched models
+DocumentProcessingLog								DONE
+Invoice										PROCESSING
