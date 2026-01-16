@@ -130,6 +130,10 @@ Product file import,export					CHECK
 Storage file import,export					CHECK
 Supplier file import,export					CHECK
 
-Shipment file import didn’t show specific column duplicate error
+Shipment file import didn’t show specific column duplication error
 , export is ok							CHECK
+
+Importing file template
+ - add new route for downloading new template			DONE
+ - check whether each column has correct header or no	DONE
 
