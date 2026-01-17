@@ -131,7 +131,7 @@ Storage file import,export					CHECK
 Supplier file import,export					CHECK
 
 Shipment file import didn’t show specific column duplication error
-, export is ok							CHECK
+, export is ok								CHECK
 
 Importing file template
  - add new route for downloading new template			DONE
@@ -143,4 +143,16 @@ Clean up hour properties didn’t use for now
 
 Watched models
 DocumentProcessingLog								DONE
-Invoice										PROCESSING
+Invoice										DONE
+
+createTempInvoice();
+cleanUpPreviousSuccessfulTempInvoices();
+createTempFile();
+extractText();
+parseInvoiceEntitiesWithData();
+copyFromParsedInvoice();
+validateTempInvoice();
+uploadToS3withRetry();
+
+
+
