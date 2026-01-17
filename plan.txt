@@ -145,10 +145,10 @@ Watched models
 DocumentProcessingLog								DONE
 Invoice										DONE
 
-createTempInvoice();
-cleanUpPreviousSuccessfulTempInvoices();
-createTempFile();
-extractText();
+createTempInvoice();								DONE
+cleanUpPreviousSuccessfulTempInvoices();				DONE
+createTempFile();									DONE
+extractText();									DONE
 parseInvoiceEntitiesWithData();
 copyFromParsedInvoice();
 validateTempInvoice();
