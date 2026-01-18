@@ -166,3 +166,9 @@ Total: 107.50 USD
 
 Pricing Service
 
+Configure app.accountmanagement.base-url, app.pricing.operation-code.invoice-upload, app.pricing.minimum-reservation, and app.credit.reservation.ttl-seconds in your environment as needed.
+The flow still returns a temp-invoice payload; promotion to a persisted Invoice is not yet implemented (task remains).
+Pricing estimation is best-effort (file size + simple heuristics). Refine PricingService once unit costs/unit names are finalized.
+If you want the credit reservation amount to match actual post-processing usage, we can add a second-pass adjustment or a more accurate usage model.
+
+
