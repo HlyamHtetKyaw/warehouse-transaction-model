@@ -149,10 +149,20 @@ createTempInvoice();								DONE
 cleanUpPreviousSuccessfulTempInvoices();				DONE
 createTempFile();									DONE
 extractText();									DONE
-parseInvoiceEntitiesWithData();
-copyFromParsedInvoice();
-validateTempInvoice();
-uploadToS3withRetry();
+parseInvoiceEntitiesWithData();						DONE
+copyFromParsedInvoice();							DONE
+validateTempInvoice();								DONE
+uploadToS3withRetry();								DONE
+
+INVOICE
+Invoice Number: INV-1001
+Invoice Date: 2025-01-10
+Vendor: Acme Supplies
+Item: Widget A  Qty:2  Unit:50.00
+Subtotal: 100.00
+Tax: 7.50
+Total: 107.50 USD
 
 
+Pricing Service
 
