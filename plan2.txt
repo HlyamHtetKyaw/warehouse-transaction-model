@@ -1,0 +1,9 @@
+Document Management System
+Single file upload			FINE
+Batch upload				IN PROGRESS
+
+POST /invoices/upload – Single upload with auth + MIME/size validation;
+POST /invoices/process-only – Same validation, but no S3 upload;
+POST /invoices/upload/batch – Multipart batch of files;
+
+POST /invoices/processBatch – Metadata-only batch (no files);
