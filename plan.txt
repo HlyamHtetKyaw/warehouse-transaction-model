@@ -155,10 +155,10 @@ validateTempInvoice();								DONE
 uploadToS3withRetry();								DONE
 
 INVOICE
-Invoice Number: INV-1001
+Invoice Number: INN-1001
 Invoice Date: 2025-01-10
-Vendor: Acme Supplies
-Item: Widget A  Qty:2  Unit:50.00
+Vendor: Hlyam Supplies
+Item: Widget B  Qty:2  Unit:50.00
 Subtotal: 100.00
 Tax: 7.50
 Total: 107.50 USD
@@ -170,5 +170,34 @@ Configure app.accountmanagement.base-url, app.pricing.operation-code.invoice-upl
 The flow still returns a temp-invoice payload; promotion to a persisted Invoice is not yet implemented (task remains).
 Pricing estimation is best-effort (file size + simple heuristics). Refine PricingService once unit costs/unit names are finalized.
 If you want the credit reservation amount to match actual post-processing usage, we can add a second-pass adjustment or a more accurate usage model.
+
+
+
+
++--------------------------+---------------+-------------------+-----------+------------------------+
+| pricing_code             | pricing_model | service_name      | unit_cost | unit_name              |
++--------------------------+---------------+-------------------+-----------+------------------------+
+| OCR_PER_PAGE             | PER_PAGE      | OCR Processing    |  0.100000 | page                   |
+| GPT_INPUT_PER_1K_TOKENS  | PER_TOKEN     | LLM Input Tokens  |  0.050000 | input_tokens_per_1000  |
+| GPT_OUTPUT_PER_1K_TOKENS | PER_TOKEN     | LLM Output Tokens |  0.050000 | output_tokens_per_1000 |
+| S3_STORAGE_PER_MB        | PER_MB        | Storage           |  0.010000 | mb                     |
++--------------------------+---------------+-------------------+-----------+------------------------+
+
+
+file_size=339kb
+gpt_iniput_token=514
+
+Operation code = INVOICE_UPLOAD = credit_cost 1
+4 pricing mapping all multiplier is 1
+	Ocr per page
+	LLM input
+	LLM output
+	Storage per MB
+
+Token calculation flow
+1 word is 1 token and 8 character is 1 token
+
+
+Need error handling for duplicate invoice file upload
 
 
