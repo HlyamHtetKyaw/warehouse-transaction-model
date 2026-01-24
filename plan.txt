@@ -204,5 +204,6 @@ Need error handling for duplicate invoice file upload
 Delete account flow
 Root delete reseller		FINE
 Reseller delete admin		FINE
+Admin delete end-user		FINE
 
 
