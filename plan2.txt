@@ -12,6 +12,6 @@ Validation error will take credit from users	DONE
 Patch update for invoice				DONE
 
 Invoice Service					DONE
-Vendor Service					IN PROGRESS
+Vendor Service					DONE
 Pricing Config Service				NOT CHECK
 
