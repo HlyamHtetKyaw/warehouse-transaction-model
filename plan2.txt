@@ -7,3 +7,6 @@ POST /invoices/process-only – Same validation, but no S3 upload;
 POST /invoices/upload/batch – Multipart batch of files;
 
 POST /invoices/processBatch – Metadata-only batch (no files);
+
+Validation error will take credit from users
+
