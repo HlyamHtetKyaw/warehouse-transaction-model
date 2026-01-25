@@ -8,5 +8,6 @@ POST /invoices/upload/batch – Multipart batch of files;
 
 POST /invoices/processBatch – Metadata-only batch (no files);
 
-Validation error will take credit from users
+Validation error will take credit from users	DONE
+Patch update for invoice				DONE
 
