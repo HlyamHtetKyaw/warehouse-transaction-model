@@ -11,3 +11,7 @@ POST /invoices/processBatch – Metadata-only batch (no files);
 Validation error will take credit from users	DONE
 Patch update for invoice				DONE
 
+Invoice Service					DONE
+Vendor Service					IN PROGRESS
+Pricing Config Service				NOT CHECK
+
