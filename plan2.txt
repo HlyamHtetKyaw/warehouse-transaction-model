@@ -15,3 +15,7 @@ Invoice Service					DONE
 Vendor Service					DONE
 Pricing Config Service				NOT CHECK
 
+Add pricing config route for root
+Soft delete invoice data
+Concatenate invoice number with user id
+
