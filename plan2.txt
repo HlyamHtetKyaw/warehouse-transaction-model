@@ -23,3 +23,8 @@ Add update storage location route		DONE | TESTED
 Stock batch update				DONE | TESTED
 Stock batch delete				DONE | TESTED
 
+UTIL+WAREHOUSE BE(H2)+FE
+
+ACCOUNT MANAGEMENT SYSTEM- SEPARATE
+
+
