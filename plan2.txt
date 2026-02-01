@@ -19,5 +19,7 @@ Add pricing config route for root			DONE need to test
 Soft delete invoice data				DONE need to test
 Concatenate invoice number with user id	DONE need to test
 
-Add update storage location route		DONE | 
+Add update storage location route		DONE | TESTED
+Stock batch update				DONE | TESTED
+Stock batch delete				
 
