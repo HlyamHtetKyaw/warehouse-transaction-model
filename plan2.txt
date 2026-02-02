@@ -13,11 +13,11 @@ Patch update for invoice				DONE
 
 Invoice Service					DONE
 Vendor Service					DONE
-Pricing Config Service				NOT CHECK
+Pricing Config Service				DONE
 
-Add pricing config route for root			DONE need to test
-Soft delete invoice data				DONE need to test
-Concatenate invoice number with user id	DONE need to test
+Add pricing config route for root			DONE
+Soft delete invoice data				DONE
+Concatenate invoice number with user id	DONE
 
 Add update storage location route		DONE | TESTED
 Stock batch update				DONE | TESTED
@@ -26,5 +26,11 @@ Stock batch delete				DONE | TESTED
 UTIL+WAREHOUSE BE(H2)+FE
 
 ACCOUNT MANAGEMENT SYSTEM- SEPARATE
+
+CRUD Pricing Config		TESTED - FINE
+CRUD Operation Pricing	TESTED - FINE
+CRUD Operation Mapping	TESTED - FINE
+
+
 
 
