@@ -19,17 +19,35 @@ Add pricing config route for root			DONE
 Soft delete invoice data				DONE
 Concatenate invoice number with user id	DONE
 
+CRUD Pricing Config		TESTED - FINE
+CRUD Operation Pricing	TESTED - FINE
+CRUD Operation Mapping	TESTED - FINE
+
 Add update storage location route		DONE | TESTED
 Stock batch update				DONE | TESTED
 Stock batch delete				DONE | TESTED
 
-UTIL+WAREHOUSE BE(H2)+FE
+TODO:
 
-ACCOUNT MANAGEMENT SYSTEM- SEPARATE
+raw,pure data,unique id,invoice id (FK)->acc management
 
-CRUD Pricing Config		TESTED - FINE
-CRUD Operation Pricing	TESTED - FINE
-CRUD Operation Mapping	TESTED - FINE
+remove raw,pure data->invoice table
+
+doc management->true -> send to acc mang
+false->dont send
+
+freelicense.limit.product=
+freelicense.limit.warehouse=2
+freelicense.limit.supplier=2
+freelicense.limit.stock=100
+freelicense.limit.storage-location=25
+freelicense.limit.unit=10
+freelicense.limit.category=10
+freelicense.limit.shipment=30 
+
+empty->unlimited
+
+
 
 
 
