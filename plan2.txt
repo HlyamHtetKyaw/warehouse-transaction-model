@@ -33,7 +33,7 @@ raw,pure data,unique id,invoice id (FK)->acc management		DONE
 
 remove raw,pure data->invoice table					DONE
 
-doc management->true -> send to acc mang
+doc management->true -> send to acc mang				DONE
 false->dont send
 
 freelicense.limit.product=
