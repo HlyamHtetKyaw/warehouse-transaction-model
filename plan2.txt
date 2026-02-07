@@ -46,7 +46,7 @@ freelicense.limit.category=10
 freelicense.limit.shipment=30 
 empty->unlimited }							DONE
 
-
+Whitelist ip & Attempted ip			DONE
 
 
 
