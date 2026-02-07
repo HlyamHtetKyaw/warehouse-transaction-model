@@ -36,7 +36,7 @@ remove raw,pure data->invoice table					DONE
 doc management->true -> send to acc mang				DONE
 false->dont send
 
-freelicense.limit.product=
+{ freelicense.limit.product=
 freelicense.limit.warehouse=2
 freelicense.limit.supplier=2
 freelicense.limit.stock=100
@@ -44,8 +44,7 @@ freelicense.limit.storage-location=25
 freelicense.limit.unit=10
 freelicense.limit.category=10
 freelicense.limit.shipment=30 
-
-empty->unlimited
+empty->unlimited }							DONE
 
 
 
