@@ -29,9 +29,9 @@ Stock batch delete				DONE | TESTED
 
 TODO:
 
-raw,pure data,unique id,invoice id (FK)->acc management
+raw,pure data,unique id,invoice id (FK)->acc management		DONE
 
-remove raw,pure data->invoice table
+remove raw,pure data->invoice table					DONE
 
 doc management->true -> send to acc mang
 false->dont send
