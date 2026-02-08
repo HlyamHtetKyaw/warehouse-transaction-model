@@ -56,4 +56,5 @@ Invoices processed with date -> return success rate %				DONE
 Make an api to return estimated credits rate for current batch files		DONE (need to check calculation flow)
 
 
-
+Fix account Id missing in complete purchase route			DONE
+Add route to retrieve s3 files invoices					DONE
