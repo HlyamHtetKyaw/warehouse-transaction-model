@@ -55,8 +55,8 @@ Status filter get all pagination invoice api		DONE
 Invoices processed with date -> return success rate %			(	DONE
 Make an api to return estimated credits rate for current batch files		DONE (need to check calculation flow)
 
-Properties based ip verified by Root
-Upload Invoice Error
+Properties based ip verified by Root DONE
+Upload Invoice Error DONE
 
 
 
