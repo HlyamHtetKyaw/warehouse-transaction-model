@@ -52,9 +52,11 @@ Export invoice data excel form with status	DONE
 Status filter get all pagination invoice api		DONE
 
 
-Invoices processed with date -> return success rate %				DONE
+Invoices processed with date -> return success rate %			(	DONE
 Make an api to return estimated credits rate for current batch files		DONE (need to check calculation flow)
 
+Properties based ip verified by Root
+Upload Invoice Error
 
-Fix account Id missing in complete purchase route			DONE
-Add route to retrieve s3 files invoices					DONE
+
+
